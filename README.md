@@ -7,9 +7,9 @@
 
 ### Resources
 
-- [Processing Reference] (https://processing.org/reference/)
-- [The Coding Train on Youtube] (https://www.youtube.com/user/shiffman")
-- [ColorHexa] (https://www.colorhexa.com/)
+- [Processing Reference](https://processing.org/reference/)
+- [The Coding Train on Youtube](https://www.youtube.com/user/shiffman)
+- [ColorHexa](https://www.colorhexa.com/)
 
 ### What is Processing?
 
@@ -32,8 +32,8 @@ An object is an abstracted section of computer memory, which programmers use to 
 - **Attributes** are the data contained inside objects.
 - **Methods** are the functions that objects know how to perform on their attributes.
 
-- `PVector()` is an object in Processing which is essentially a list that is commonly used to store coordinate values. [reference] (https://processing.org/reference/PVector.html)
-- `ArrayList()` is also a list object, but is more flexible, and can be modified to store different types of data... or other objects. [reference] (https://processing.org/reference/ArrayList.html)
+- `PVector()` is an object in Processing which is essentially a list that is commonly used to store coordinate values. [reference](https://processing.org/reference/PVector.html)
+- `ArrayList()` is also a list object, but is more flexible, and can be modified to store different types of data... or other objects. [reference](https://processing.org/reference/ArrayList.html)
 
 ### Main File
 
@@ -113,3 +113,4 @@ The `update()` method implements the physics system of our animation, updating t
 
 All together these few lines of code make use of OOP and Processing to create an animation of circular particles moving around a screen. A full version of this Processing sketch is downloadable on this page.
 It contains extra functionality that adds gravity, makes the balls bounce off the edges of the screen, and lets the user move a paddle around to interact with the particles. Download it and play with the code!
+
