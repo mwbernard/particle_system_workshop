@@ -69,6 +69,7 @@ void draw() {
     for (int i = 0; i < population; i++) {
     particles.get(i).update();
     particles.get(i).display();
+    }
 }
 ```
 
