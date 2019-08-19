@@ -52,6 +52,7 @@ void setup() {
     for (int i = 0; i < population; i++) {
         particles.add(new Particle());
     }
+}
 ```
 In this case, our global variables are a population number, which dictates how many particles we want to create, and an ArrayList object `particles` that is set up to contain Particle objects, which we will create later.
 The `setup()` function decides the size of our canvas, and populates the list `particles` with new Particle objects.
