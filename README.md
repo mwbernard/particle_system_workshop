@@ -40,18 +40,18 @@ An object is an abstracted section of computer memory, which programmers use to 
 The main file is the base of our Processing sketch. In it, we write the `setup()` and `draw()` functions, which run the animation. Often at the top of the main file, we will also declare any global variables we want, which are accessible by any function in our sketch.
 
 ```processing
-    // declaration of global variables
-    int population = 50;
-    ArrayList<Particle> particles = new ArrayList<Particle>();
+// declaration of global variables
+int population = 50;
+ArrayList<Particle> particles = new ArrayList<Particle>();
 
-    void setup() {
-        // set up canvas
-        size(800,800);
+void setup() {
+    // set up canvas
+    size(800,800);
 
-        // populate the list "particles" with particle objects
-        for (int i = 0; i < population; i++) {
-            particles.add(new Particle());
-        }
+    // populate the list "particles" with particle objects
+    for (int i = 0; i < population; i++) {
+        particles.add(new Particle());
+    }
 ```
 In this case, our global variables are a population number, which dictates how many particles we want to create, and an ArrayList object `particles` that is set up to contain Particle objects, which we will create later.
 The `setup()` function decides the size of our canvas, and populates the list `particles` with new Particle objects.
