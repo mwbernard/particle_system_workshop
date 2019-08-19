@@ -57,7 +57,7 @@ void setup() {
 In this case, our global variables are a population number, which dictates how many particles we want to create, and an ArrayList object `particles` that is set up to contain Particle objects, which we will create later.
 The `setup()` function decides the size of our canvas, and populates the list `particles` with new Particle objects.
 
-The `draw` function simply interates through the list `particles` and calls the `update()` and `display()` methods that each particle comes with.
+The `draw()` function simply interates through the list `particles` and calls the `update()` and `display()` methods that each particle comes with.
 `draw()` runs once on every frame of the animation, so this means that on each frame, each particle in `particles` is going to update its position, and display itself on the canvas.
 
 ```processing
